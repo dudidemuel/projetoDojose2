@@ -4,9 +4,9 @@ public class Funcionario
 {
     public Funcionario(string nome, string cpf)
     {
-        Nome = nome;
-        Cpf = cpf;
-        DataDeContratacao = DateTime.Today;
+        this.Nome = nome;
+        this.Cpf = cpf;
+        this.DataDeContratacao = DateTime.Today;
     }
 
     public string Nome { get; set; }
